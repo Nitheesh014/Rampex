@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int length = 10;
+    int width = 20;
+    printf("perimeter of rectangle: ");
+    int peri = 2 * (length + width);
+    int area = length * width;
+    printf("perimeter = %d, area = %d", peri, area);
+    return 0;
+}
